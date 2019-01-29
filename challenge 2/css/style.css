@@ -29,9 +29,22 @@ a {
 }
 
 li {
-    line-height: 30px;
+    line-height: 25px;
+    /* list-style-image: url(../images/images.jpg); */
 }
+/* end of link style */
+
 /* paragraph style */
 p {
     font-size: 14px;
+}
+
+/* nav bar */
+.navbar li {
+    list-style: none;
+    text-align: center;
+    display:inline;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    box-shadow: 10px;
 }
