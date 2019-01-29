@@ -1,0 +1,12 @@
+/* base style */
+
+body {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+h1,
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
