@@ -3,10 +3,35 @@
 body {
     font-family: 'Playfair Display', serif;
     letter-spacing: 1px;
-    word-spacing: 2px;
+    word-spacing: 3px;
+    line-height: 20px;
 }
 
+/* heading style */
 h1,
 h2 {
     font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-indent: 20px;
+}
+
+/* link style */
+a:hover{
+    text-decoration: none;
+    color: red;
+    font-family: 'Baloo Thambi', cursive;
+    font-size: 14px;
+}
+
+a {
+    color: rgb(253, 98, 8);
+}
+
+li {
+    line-height: 30px;
+}
+/* paragraph style */
+p {
+    font-size: 14px;
 }
