@@ -10,6 +10,7 @@
     height: 200px;
     width: 200px;
     float: left;
+    text-align: center;
 }
 
 .box2 {
@@ -17,6 +18,7 @@
     height: 200px;
     width: 200px;
     float: right;
+    text-align: center;
 }
 
 .box3 {
@@ -24,6 +26,7 @@
     height: 200px;
     width: 200px;
     float: left;
+    text-align: center;
 }
 
 .box4 {
@@ -31,6 +34,7 @@
     height: 200px;
     width: 200px;
     float: right;
+    text-align: center;
 }
  /* hover over box */
 .box1:hover {
