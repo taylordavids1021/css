@@ -9,6 +9,10 @@ body {
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  line-height: 20px;
 }
 
 /* Layout */
@@ -68,20 +72,13 @@ a {
 
 li {
   line-height: 25px;
-  font-family: 'Playfair Display', serif;
-  letter-spacing: 1px;
-  word-spacing: 3px;
-  line-height: 20px;
+  /* list-style-image: url(../images/images.jpg); */
 }
 /* end of link style */
 
 /* paragraph style */
 p {
   font-size: 14px;
-  font-family: 'Playfair Display', serif;
-  letter-spacing: 1px;
-  word-spacing: 3px;
-  line-height: 20px;
 }
 
 /* nav bar */
@@ -91,4 +88,5 @@ p {
   display:inline;
   letter-spacing: 1px;
   word-spacing: 3px;
+  box-shadow: 10px;
 }
