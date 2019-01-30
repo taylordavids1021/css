@@ -1,0 +1,57 @@
+/* conatiner */
+.container {
+    display: block;
+}
+
+/* 4 boxes */
+.box1 {
+    display: block;
+    background-color: tomato;
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+.box2 {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+
+.box3 {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+.box4 {
+    background-color: springgreen;
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+ /* hover over box */
+.box1:hover {
+    background-color: aqua;
+}
+.box2:hover {
+    background-color: brown;
+}
+.box3:hover {
+    background-color: black;
+    width: 600px;
+}
+.box4:hover {
+    background-color: salmon;
+    width: 50px;
+}
+
+/* active boxes */
+.box1:active,
+.box2:active,
+.box3:active,
+.box4:active {
+    background-color: orange;
+}
