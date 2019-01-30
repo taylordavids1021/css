@@ -1,0 +1,12 @@
+
+/* 2nd google font */
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+
+/* font for paragraph */
+body {
+    font-family: 'Indie Flower', cursive;
+}
+
+.font2 {
+    font-family: 'Cormorant Garamond', serif;
+}
