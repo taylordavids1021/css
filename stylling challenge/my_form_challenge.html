@@ -17,40 +17,50 @@
 <!-- paragraph -->
 <p>Welcome and enjoy! Be Mindful and let it be !</p>
     
-<!-- link -->
+<!-- link and logo image -->
+<img src="images/lotus.png">
 <a href="https://www.equinox.com/spa?pscid=PS-Google-Sitelink-Spa&Relaxation&gclid=EAIaIQobChMIuuejqYya4AIVzZztCh0msQFJEAAYASABEgLgDfD_BwE&gclsrc=aw.ds"><b>Spa and Relaxation</b></a>
     
 <!-- form structure -->
 <form action="">
     <div>
-        Name:<br>
-        <input id="name" name="name" type="text" placeholder=""></br>
+        <p>Name:</p>
+        <input id="name" name="name" type="text" placeholder="" required>
     </div>
 
     <div>
-        Surname:<br>
-        <input id="name" name="surname" type="text" placeholder=""></br>
+        <p>Surname:</p>
+        <input id="name" name="surname" type="text" placeholder="" required>
     </div>
 
     <div>
-        I'D:<br>
-        <input id="name" name="id" type="number" placeholder=""></br>
+        <p>I'D:</p>
+        <input id="name" name="id" type="number" placeholder="" required>
     </div>
 
     <div>
-        Gender:<br>
-        <input id="name" name="id" type="text" placeholder="">
-    <div>
-        Address:<br>
-        <input id="name" name="Address" type="text"></br>
-    <div>
-
+        <p>Gender:</p>
+        <select>
+            <option value="">Select one</option>
+            <option value="female" required>Female</option>
+            <option value="male" required>Male</option>
+            <option value="other" required>Other</option>
+        </select>
     </div>
-        Email:<br>
-        <input id="email" name="email" type="text" placeholder="yourname@yourdomain.com"></br>
+
+    <div>
+        <p>Address:</p>
+        <input id="name" name="Address" type="text" required>
+    </div>
+
+    <div>
+        <p>Email:</p>
+        <input id="email" name="email" type="text" placeholder="yourname@yourdomain.com" required>
     </div>
     
-    <button>Subscribe Now</button>
+    <br>
+        <button>Subscribe Now</button>
+    </br>
 </form>
     
 <!-- container -->
